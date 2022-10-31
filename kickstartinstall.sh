@@ -6,7 +6,7 @@ $ su vaultwarden
 # Change Directory to vaultwarden home 
 $ cd ~/
 # Download the install script from github 
-$ wget -o install.sh https://github.com/seanvandermolen/vaultwarden_install_script/raw/master/install.sh
+$ wget -O install.sh https://github.com/seanvandermolen/vaultwarden_install_script/raw/master/install.sh
 # Set Script as executable 
 $ chmod +x install.sh
 # Run script 
