@@ -30,7 +30,7 @@ cd ~/
 
 wget -o kickstartinstall.sh https://github.com/seanvandermolen/vaultwarden_install_script/raw/master/kickstartinstall.sh
 
-chmod +x install.sh
+chmod +x kickstartinstall.sh
 
 ./kickstartinstall.sh
 
@@ -48,7 +48,7 @@ cd ~/
 
 wget -o kickstartupdate.sh https://github.com/seanvandermolen/vaultwarden_install_script/raw/master/kickstartupdate.sh
 
-chmod +x update.sh
+chmod +x kickstartupdate.sh
 
 ./kickstartupdate.sh
 
