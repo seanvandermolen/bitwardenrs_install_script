@@ -125,3 +125,12 @@ sudo systemctl start vaultwarden.service
 
 #restart nginx
 sudo service nginx restart
+
+#Set CRON for maintenence reboots
+vaultwardencron="$(cat << EOF
+0 0 1 0 * root /usr/sbin/reboot
+EOF
+)"
+echo "${vaultwardencron}" | sudo tee -a /etc/crontab
+
+echo "Update complete!"
