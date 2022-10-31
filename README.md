@@ -28,19 +28,12 @@ Install.sh will install the newest version of vaultwarden.
 
 
 ```bash
-# If logged in as root add a user using these commands prior to install: 
-$ adduser vaultwarden
-$ usermod -a -G sudo vaultwarden
-# Switch to vaultwarden user (script won't run as root) 
-$ su vaultwarden
-# Change Directory to vaultwarden home 
-$ cd ~/
-# Download the install script from github 
-$ wget https://raw.githubusercontent.com/dinger1986/bitwardenrs_install_script/master/install.sh
-# Set Script as executable 
-$ chmod +x install.sh
-# Run script 
-$ ./install.sh
+# Copy, Paste and run to install
+
+wget https://github.com/seanvandermolen/vaultwarden_install_script/raw/master/kickstartinstall.sh
+chmod +x install.sh
+./install.sh
+
 ```
 
 Fill in info as requested as the script runs.
@@ -50,11 +43,11 @@ Once complete go to https://yourdomain/admin
 ## Update
 
 ```bash
-# Download the update script from github 
-$ wget https://raw.githubusercontent.com/dinger1986/bitwardenrs_install_script/master/update.sh
-# Set Script as executable 
-$ chmod +x update.sh
-# Run script $ ./update.sh
+# Copy, Paste and run to update
+
+wget https://github.com/seanvandermolen/vaultwarden_install_script/raw/master/kickstartupdate.sh
+chmod +x update.sh
+
 ```
 
 Fill in info as requested as the script runs.
