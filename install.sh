@@ -612,7 +612,15 @@ echo "${vaultwardenfail2banadminjail}" | sudo tee -a /etc/fail2ban/jail.d/vaultw
 
 sudo systemctl restart fail2ban
 
+#Set CRON for maintenence reboots
+vaultwardencron="$(cat << EOF
+0 0 1 0 * root /usr/sbin/reboot
+EOF
+)"
+echo "${vaultwardencron}" | sudo tee -a /etc/crontab
+
 printf >&2 "Please go to admin url: https://${domain}/admin\n\n"
 printf >&2 "Enter ${admintoken} to gain access, please save this somewhere!!\n\n"
+printf >&2 "Database user vaultwarden and password ${postgresql_pwd} , please save this.\n\n"
 
 echo "Installation complete!"
