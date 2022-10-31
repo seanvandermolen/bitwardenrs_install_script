@@ -28,7 +28,7 @@ Install.sh will install the newest version of vaultwarden.
 ```bash
 cd ~/
 
-wget -o kickstartinstall.sh https://github.com/seanvandermolen/vaultwarden_install_script/raw/master/kickstartinstall.sh
+wget -O kickstartinstall.sh https://github.com/seanvandermolen/vaultwarden_install_script/raw/master/kickstartinstall.sh
 
 chmod +x kickstartinstall.sh
 
@@ -47,7 +47,7 @@ Once complete go to https://yourdomain/admin
 ```bash
 cd ~/
 
-wget -o kickstartupdate.sh https://github.com/seanvandermolen/vaultwarden_install_script/raw/master/kickstartupdate.sh
+wget -O kickstartupdate.sh https://github.com/seanvandermolen/vaultwarden_install_script/raw/master/kickstartupdate.sh
 
 chmod +x kickstartupdate.sh
 
