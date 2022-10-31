@@ -34,6 +34,7 @@ chmod +x kickstartinstall.sh
 
 ./kickstartinstall.sh
 
+
 ```
 
 Fill in info as requested as the script runs.
@@ -51,6 +52,7 @@ wget -o kickstartupdate.sh https://github.com/seanvandermolen/vaultwarden_instal
 chmod +x kickstartupdate.sh
 
 ./kickstartupdate.sh
+
 
 ```
 
