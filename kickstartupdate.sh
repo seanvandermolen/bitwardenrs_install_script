@@ -7,6 +7,6 @@ else
 fi
 
 cd ~/
-wget -o update.sh https://github.com/seanvandermolen/vaultwarden_install_script/raw/master/update.sh
+wget -O update.sh https://github.com/seanvandermolen/vaultwarden_install_script/raw/master/update.sh
 chmod +x update.sh
 ./update.sh
